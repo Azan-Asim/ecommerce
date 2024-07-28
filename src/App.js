@@ -6,6 +6,7 @@ import Newarrival from './pages/Newarrival';
 import Sale from './pages/Sale';
 import Customercare from './pages/Customercare';
 import Productpage from './pages/Productpage';
+import Shoppingbag from './pages/Shoppingbag';
 import './App.css';
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/Productpage",
     element: <Productpage />,
+  },
+  {
+    path: "/Shoppingbag",
+    element: <Shoppingbag />,
   },
 ]) //added a path for our route
 

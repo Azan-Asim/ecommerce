@@ -25,7 +25,7 @@ function Header() {
   return (
     <nav className='bg-slate-50 flex justify-between sticky top-0 left-0 right-0 items-center w-full p-4'>
       <div className='w-24 '>
-        <img className='w-full ' src="https://d30fs77zq6vq2v.cloudfront.net/img/clicky_logo-97724356932.png" alt="" />
+        <img className='w-full ' src="./clickylogo.png" alt="" />
       </div>
 
       <ul className='md:flex text-sm  hidden  gap-4 cursor-pointer '>
